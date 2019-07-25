@@ -1,8 +1,8 @@
 # Contributing to Auth0 Documentation
 
-:+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
+:+1::tada: Thank you for taking the time to contribute, we value your contribution! :tada::+1:
 
-The following is a set of guidelines for contributing to the Auth0 documentation. These are just guidelines, not rules, use your best judgment and feel free to propose changes to this document in a pull request.
+The following are guidelines for contributing to the Auth0 documentation. These are guidelines, not rules, however, feel free to propose changes to this document in a pull request. One final thing, take care and do not submit to master branch.
 
 ## Table of Contents
 
@@ -40,7 +40,7 @@ The following is a set of guidelines for contributing to the Auth0 documentation
 ## General Guidelines
 
 * Read and follow the [Style Guide](STYLEGUIDE.md).
-* Consult the [Words](WORDS.md) document for Auth0 specific spellings and definitions.
+* Use the [Words](WORDS.md) document for Auth0 specific spellings and definitions.
 * Always use relative URLs for internal `auth0.com/docs` links. For example, if the absolute path to the document is `https://auth0.com/docs/identityproviders`, use `/identityproviders`. These links will be correctly formatted in the build process.
 * Do not hard code links to Auth0 sites like `docs.auth0.com` or `manage.auth0.com`. Instead, use [Document Variables](#document-variables), such as `${manage_url}`.
 * Name files with all lowercase using dashes (-) to separate words. If using a date in the file name, it should be in the format YYYY-MM-DD. For example, `this-is-my-file.md` or `this-is-a-title-2015-10-01.md`.
@@ -51,7 +51,7 @@ The following is a set of guidelines for contributing to the Auth0 documentation
 
 ## Reusing content
 
-To avoid duplication of content, you can create document fragments to be referenced from other documents. The process of including another document is shown below.
+To avoid duplication of content, create document fragments to be referenced from other documents. The process of including another document is shown below.
 
 First, create your fragment document. The convention is to name fragments with an underscore, like: `_mydocument.md`.
 
@@ -75,7 +75,7 @@ You should [test your Markdown](http://markdownlivepreview.com) to ensure the fo
 
 ### Headings
 
-Add one to six `#` symbols before your heading text to create your header. The number of # you use determines the size of the heading.
+ Before your heading text to create your header add a `#` symbol. The number of `#`'s that you use will determine the size of the heading.
 
 ```
 # H1
@@ -177,7 +177,7 @@ It is important to understand that the Authorization Code flow should only be us
 
 Use this container to mark a Next to read/Continue reading list of links.
 
-Try to keep the list length to a minimum (up to 5 links).
+ keep the list length to a minimum (up to 5 links).
 
 ```
 ::: next-steps
